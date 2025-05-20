@@ -9,8 +9,8 @@ function actualizarTarjeta() {
 const tarjeta = document.getElementById('cuadrado');
 
 
-function cambiarColor() {
-    switch() {
+function cambiarColor(opcionDeColor)  {
+    switch(opcionDeColor) {
         case 'verde':
             tarjeta.style.background = 'linear-gradient(135deg, #058124, #058124)';
             break;
