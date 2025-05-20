@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 </title>
+    <link rel="stylesheet" href="tarea1.css">
+</head>
+<body>
+    <h1>Personaliza tu Tarjeta</h1>
+    
+    <input type="text" id="nombre" placeholder="Tu Nombre">
+    <input type="text" id="profesion" placeholder="Escribe tu profesion">
+    <button onclick="actualizarTarjeta()" class="boton boton-tamaño"> Actualizar tarjeta </button>
+
+    <div id="cuadrado">
+        <h2 id="nombre-tarjeta">Tu Nombre</h2>
+            <h3 id="transparente">Tu Profesion</h3>
+            <div id="descripcion-contenedor">
+                <p id="descripcion-texto">Mostrar/Ocultar Descripcion</p>
+            </div>
+    </div>
+
+    <h2>Cambia el estilo de la tarjeta</h2>
+        <div class="botones-fondo">
+            <button onclick="cambiarColor('verde')" class="boton boton-verde">Fondo Verde</button>
+            <button onclick="cambiarColor('rojo')" class="boton boton-rojo">Fondo Rojo</button>
+            <button onclick="cambiarColor('aleatorio')" class="boton boton-aleatorio">Fondo Aleatorio</button>
+        </div>
+
+    <h2>Ajusta el tamaño del texto</h2>
+        <div class="botones-fondo">
+            <button onclick="cambiarTamano('pequeño')" class="boton boton-tamaño"> Pequeño </button>
+            <button onclick="cambiarTamano('mediano')" class="boton boton-tamaño"> Mediano</button>
+            <button onclick="cambiarTamano('grande')" class="boton boton-tamaño"> Grande </button>
+        </div>
+
+    <script src="ejercicio1.js"></script>
+</body>
+</html>

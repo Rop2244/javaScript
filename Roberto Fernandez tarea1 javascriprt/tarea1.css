@@ -1,0 +1,122 @@
+body, html {
+   height: 100%;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: rgb(81, 81, 81);
+}
+h1{
+   text-align: center;
+   font-size: 50;;
+}
+h2{
+   text-align: center;
+   font-size: 35;
+}
+
+/* ------------------------------------------------------------- */
+/* para cambiar el boton de fondo verde */ 
+.boton{
+   display: block;
+   margin: 30px auto ;
+   padding: 2px 7px;
+   border-radius: 8px;
+   cursor: pointer;
+   text-align: center;
+   transition: all 0.3s ease; 
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+   font-weight: bold;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boton-verde{
+   background: linear-gradient(135deg, #058124, #058124);
+}
+.boton-rojo{
+   background: linear-gradient(135deg, #810505, #810505);
+}
+.boton-aleatorio{
+   background: linear-gradient(135deg, #1500ff, #1500ff);
+}
+.boton-tamaño{
+   background: linear-gradient(135deg, #f0b001, #f0b001);
+}
+.boton:hover{
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+   transform: translateY(-3px);
+}
+/* ------------------------------------------------------------- */
+
+input{
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+   max-width: 400px;
+   padding: 0;
+   background-color: rgb(255, 255, 255);
+   border-radius: 8px;
+   justify-content: center;
+}
+#transparente{
+   text-align: center;
+   font-size: 25;
+}
+
+#descripcion-contenedor{
+   width: 100%;
+   margin: 20px auto;
+   display: grid;
+   gap: 15px;
+   max-width: 1000px;
+   padding: 20px;
+   background-color: rgba(228, 29, 29, 0.062);
+   border-radius: 8px;
+}
+
+#cuadrado{
+   display: block;
+   padding: 20px 57px;
+   font-size: 18px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   background: linear-gradient(135deg, #ababab, #ababab);
+   cursor: pointer;
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: all 0.3s ease; 
+}
+
+/* al pasar el ratón por la descrfipcion*/
+#descripcion-contenedor:hover{
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+   transform: translateY(-3px);
+}
+
+#descripcion-texto{
+   margin: 0;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+}
+/* ------------------------------------------------------------- */
+.tamaño{
+   display: block;
+   margin: 30px auto ;
+   padding: 2px 7px;
+   font-size: 18px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   background: linear-gradient(135deg, #f0b001, #f0b001);
+   border-radius: 8px;
+   cursor: pointer;
+   text-align: center;
+   box-shadow:  8px rgba(0, 0, 0, 0.582);
+   transition: all 0.3s ease;
+}
+.tamaño:hover{
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+   transform: translateY(-3px);
+}
