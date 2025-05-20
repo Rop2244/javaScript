@@ -26,7 +26,7 @@ function cambiarColor(opcionDeColor)  {
 
 
 
-/*
+
 function cambiarTamano(tamaño) {
     switch(tamaño) {
         case 'pequeño':
@@ -40,4 +40,4 @@ function cambiarTamano(tamaño) {
             break;
     }
 }
-*/
+

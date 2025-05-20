@@ -1,57 +1,67 @@
-body, html {
+body,
+html {
    height: 100%;
    margin: 0;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: rgb(81, 81, 81);
+   background: rgb(248, 248, 248);
 }
-h1{
+
+h1 {
    text-align: center;
-   font-size: 50;;
+   font-size: 50;
+   ;
 }
-h2{
+
+h2 {
    text-align: center;
    font-size: 35;
 }
 
 /* ------------------------------------------------------------- */
-/* para cambiar el boton de fondo verde */ 
-.boton{
+/* para cambiar el boton de fondo verde */
+.boton {
    display: block;
-   margin: 30px auto ;
+   margin: 30px auto;
    padding: 2px 7px;
    border-radius: 8px;
    cursor: pointer;
    text-align: center;
-   transition: all 0.3s ease; 
+   transition: all 0.3s ease;
    color: rgb(255, 255, 255);
    font-size: 18px;
    font-weight: bold;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.boton-verde{
+.boton-verde {
    background: linear-gradient(135deg, #058124, #058124);
 }
-.boton-rojo{
+
+.boton-rojo {
    background: linear-gradient(135deg, #810505, #810505);
 }
-.boton-aleatorio{
+
+.boton-aleatorio {
    background: linear-gradient(135deg, #1500ff, #1500ff);
 }
-.boton-tamaño{
+
+.boton-tamaño {
    background: linear-gradient(135deg, #f0b001, #f0b001);
 }
-.boton:hover{
+
+.boton:hover {
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
    transform: translateY(-3px);
 }
+
 /* ------------------------------------------------------------- */
 
-input{
-   display: flex; 
+
+input {
+   display: flex;
    align-items: center;
    flex-direction: column;
    max-width: 400px;
@@ -60,12 +70,13 @@ input{
    border-radius: 8px;
    justify-content: center;
 }
-#transparente{
+
+#transparente {
    text-align: center;
    font-size: 25;
 }
 
-#descripcion-contenedor{
+#descripcion-contenedor {
    width: 100%;
    margin: 20px auto;
    display: grid;
@@ -76,35 +87,36 @@ input{
    border-radius: 8px;
 }
 
-#cuadrado{
+#cuadrado {
    display: block;
    padding: 20px 57px;
    font-size: 18px;
    font-weight: bold;
    color: rgb(255, 255, 255);
-   background: linear-gradient(135deg, #ababab, #ababab);
+   background: linear-gradient(135deg, #e3e1e1, #f4ebeb);
    cursor: pointer;
    text-align: center;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   transition: all 0.3s ease; 
+   transition: all 0.3s ease;
 }
 
 /* al pasar el ratón por la descrfipcion*/
-#descripcion-contenedor:hover{
+#descripcion-contenedor:hover {
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
    transform: translateY(-3px);
 }
 
-#descripcion-texto{
+#descripcion-texto {
    margin: 0;
    font-size: 20px;
    color: white;
    text-align: center;
 }
+
 /* ------------------------------------------------------------- */
-.tamaño{
+.tamaño {
    display: block;
-   margin: 30px auto ;
+   margin: 30px auto;
    padding: 2px 7px;
    font-size: 18px;
    font-weight: bold;
@@ -113,10 +125,11 @@ input{
    border-radius: 8px;
    cursor: pointer;
    text-align: center;
-   box-shadow:  8px rgba(0, 0, 0, 0.582);
+   box-shadow: 8px rgba(0, 0, 0, 0.582);
    transition: all 0.3s ease;
 }
-.tamaño:hover{
+
+.tamaño:hover {
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
    transform: translateY(-3px);
 }
